@@ -1,0 +1,5 @@
+#!/bin/sh
+
+terraform fmt -check -recursive
+terraform validate
+tflint

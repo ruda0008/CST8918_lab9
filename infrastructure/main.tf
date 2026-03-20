@@ -15,6 +15,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "main" {
-     name     = "rg-hybrid-a09"
+  name     = "rg-hybrid-a09"
   location = "eastus2"
 }
